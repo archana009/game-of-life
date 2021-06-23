@@ -11,5 +11,4 @@ node('HRMS&&QA'){
     stage('archiveartifacts'){
         archiveArtifacts artifacts: 'gameoflife-web/target/*.war', followSymlinks: false
     }
-
 }
